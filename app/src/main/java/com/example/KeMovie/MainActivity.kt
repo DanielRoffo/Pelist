@@ -1,9 +1,11 @@
 package com.example.KeMovie
 
+import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 import android.view.Menu
 import android.view.View
 import androidx.appcompat.widget.SearchView
@@ -184,9 +186,8 @@ class MainActivity : AppCompatActivity() {
                     //Una vez desplegada la lista en el RecyclerView, si el usuario presiona alguna de las peliculas,
                     //podra acceder a su informacion en la proxima Activity
                     adapter.onItemClick = {
-                        val intent = Intent(this@MainActivity, MovieDetailActivity::class.java)
-                        intent.putExtra("movie", it)
-                        startActivity(intent)
+
+
                     }
 
                 }else{
