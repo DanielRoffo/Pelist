@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KeMovie">
         <activity
-            android:name="com.example.KeMovie.MovieDetailActivity"
+            android:name="com.example.KeMovie.ui.view.MovieDetailActivity"
             android:exported="true"
-            android:parentActivityName="com.example.KeMovie.MainActivity"/>
+            android:parentActivityName="com.example.KeMovie.ui.view.MainActivity"/>
         <activity
-            android:name="com.example.KeMovie.MainActivity"
+            android:name="com.example.KeMovie.ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

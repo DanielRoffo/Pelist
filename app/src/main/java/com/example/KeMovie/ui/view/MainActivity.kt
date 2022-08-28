@@ -1,21 +1,21 @@
-package com.example.KeMovie
+package com.example.KeMovie.ui.view
 
-import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.util.Log
 import android.view.Menu
 import android.view.View
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.KeMovie.ViewModel.MainViewModel
-import com.example.KeMovie.adapters.MainAdapter
+import com.example.KeMovie.R
+import com.example.KeMovie.ScreenState
+import com.example.KeMovie.ui.ViewModel.MainViewModel
+import com.example.KeMovie.ui.adapters.MainAdapter
 import com.example.KeMovie.databinding.ActivityMainBinding
-import com.example.KeMovie.network.Movie
+import com.example.KeMovie.data.network.Movie
 import com.google.android.material.snackbar.Snackbar
 import java.util.*
 import kotlin.collections.ArrayList

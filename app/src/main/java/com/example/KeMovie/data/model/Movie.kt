@@ -1,4 +1,4 @@
-package com.example.KeMovie.network
+package com.example.KeMovie.data.network
 
 import android.os.Parcel
 import android.os.Parcelable

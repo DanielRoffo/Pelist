@@ -1,4 +1,4 @@
-package com.example.KeMovie.adapters
+package com.example.KeMovie.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.KeMovie.R
-import com.example.KeMovie.network.Genre
+import com.example.KeMovie.data.network.Genre
 
 //Adapter para los generos de las peliculas seleccionadas
 

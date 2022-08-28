@@ -1,4 +1,4 @@
-package com.example.KeMovie.adapters
+package com.example.KeMovie.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.transform.RoundedCornersTransformation
 import com.example.KeMovie.R
-import com.example.KeMovie.network.Movie
+import com.example.KeMovie.data.network.Movie
 
 //Adapter para el recyclerView principal del MainActivity
 

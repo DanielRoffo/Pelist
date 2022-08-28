@@ -1,11 +1,11 @@
-package com.example.KeMovie.ViewModel
+package com.example.KeMovie.ui.ViewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.KeMovie.RepositoryDetail
 import com.example.KeMovie.ScreenState
-import com.example.KeMovie.network.*
+import com.example.KeMovie.data.network.*
 import retrofit2.Call
 import retrofit2.Response
 

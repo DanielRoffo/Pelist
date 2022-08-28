@@ -1,21 +1,21 @@
-package com.example.KeMovie
+package com.example.KeMovie.ui.view
 
 import android.annotation.SuppressLint
-import android.content.ContentValues
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import coil.load
 import coil.transform.RoundedCornersTransformation
+import com.example.KeMovie.R
+import com.example.KeMovie.ScreenState
 import com.example.KeMovie.databinding.ActivityMovieDetailBinding
-import com.example.KeMovie.ViewModel.MovieDetailViewModel
-import com.example.KeMovie.adapters.MovieDetailAdapter
-import com.example.KeMovie.network.DetailMovieResponse
-import com.example.KeMovie.network.Movie
+import com.example.KeMovie.ui.ViewModel.MovieDetailViewModel
+import com.example.KeMovie.ui.adapters.MovieDetailAdapter
+import com.example.KeMovie.data.network.DetailMovieResponse
+import com.example.KeMovie.data.network.Movie
 import com.google.android.material.snackbar.Snackbar
 
 class MovieDetailActivity : AppCompatActivity() {

@@ -1,7 +1,7 @@
 package com.example.KeMovie
 
-import com.example.KeMovie.network.ApiService
-import com.example.KeMovie.network.ApiServiceDetailMovie
+import com.example.KeMovie.data.network.ApiService
+import com.example.KeMovie.data.network.ApiServiceDetailMovie
 
 class Repository(private val apiService: ApiService) {
 
